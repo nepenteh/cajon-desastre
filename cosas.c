@@ -7,7 +7,7 @@ int main() {
 
   printf("Introduce un número x: ");
   scanf("%d",&x);
-  cosas += x;
+  cosas += x; // comentario añadido en local
   printf("La variable cosas vale %d\n",cosas);
   return 0;
 }
